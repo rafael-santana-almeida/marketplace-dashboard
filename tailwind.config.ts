@@ -9,6 +9,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        title: 'var(--font-dm-sans)',
+        text: 'var(--font-poppins)',
+      },
+      gridTemplateColumns: {
+        auth: '1fr minmax(611px, auto)',
+      },
       colors: {
         orange: {
           base: 'var(--orange-base)',
